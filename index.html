@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="head">
+            <div class="logo">osama<i class="fa-brands fa-slack"></i></div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#home"><i class="fa-solid fa-mug-saucer"></i>home</a></li>
+                    <li><a href="#about"><i class="fa-regular fa-address-card"></i>skills</a></li>
+                    <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i>projects</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-briefcase"></i>services</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-mail-bulk"></i>Contact</a></li>
+                </ul>
+            </div>
+            <div class="sideNav">
+                <button id="darkMode" onclick="darkMode()">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <i class="fa-solid fa-bars-staggered" onclick="sidemenu()" id="toggle"></i>
+                <ul id="side_menu">
+                    <div class="navItem2">
+                        <li><a href="#home" onclick="sidemenu()" id="toggle"><i
+                                    class="fa-solid fa-mug-saucer"></i>home</a></li>
+                        <li><a href="#about" onclick="sidemenu()" id="toggle"><i
+                                    class="fa-regular fa-address-card"></i>skills</a></li>
+                        <li><a href="#projects" onclick="sidemenu()" id="toggle"><i
+                                    class="fa-solid fa-diagram-project"></i>projects</a></li>
+                        <li><a href="#services" onclick="sidemenu()" id="toggle"><i
+                                    class="fa-solid fa-briefcase"></i>services</a></li>
+                        <li><a href="#contact" onclick="sidemenu()" id="toggle"><i
+                                    class="fa-solid fa-mail-bulk"></i>Contact</a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ~ Start Container  -->
+    <div class="container">
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="home_intro">
+                <div class="discription">
+                    <h1>hello iam <br> <span class="name"> osama </span >saber</h1>
+                    <h1>im <span class="auto-type"></span></h1>
+                    <div class="social-icons">
+                        <button><a href="cv/cv osamaa.pdf" target="_blank">download cv<i class="fa-solid fa-cloud-arrow-down"></i></a></button>
+                        <a href="https://www.linkedin.com/public-profile/settings" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/osama.saber.161214?mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/osama.elmetwalli/?igsh=MXNwZm9kaWF0MW4xZA%3D%3D" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="home_img">
+                    <img id="imgs" src="img/1.jpg" alt="my pic">
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- about -->
+        <section class="about" id="about">
+
+            <div class="abt_container">
+                <div class="abt_content">
+                    <h1>skills</h1>
+                    <div class="abt">
+                        <p>HTML5</p>
+                        <P>CSS3</P>
+                        <p>javascript</p>
+                        <p>computer management</p>
+                        <p>ICDL</p>
+                        <p>human Resources</p>
+                        <p>graphic design</p>
+                        <p>video editing</p>
+                        <p>microsoft office </p>
+                        <p>customer support</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section class="projects" id="projects">
+            <h2>Projects </h2>
+            <div class="box-content">
+                <div class="box">
+                    <i class="fa-regular fa-circle-check"></i>
+                    <h2>completed</h1>
+                        <p>10+ finished projects</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-people-group"></i>
+                    <h2>clients</h1>
+                        <p>15+ happy clients</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-medal"></i>
+                    <h2>experience</h1>
+                        <p>2+ years in the field</p>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+        <!-- services -->
+        <section class="services" id="services">
+<h2>services</h2>
+            <div class="box-content">
+                <div class="box">
+                    <div class="img-box"> <img src="img/s2.jpg" id="imgA1" alt="loading.."></div>
+
+                    <h2>Web Design & Development</h2>
+                    <p>I create websites that are not only visually
+                        appealing but also highly functional</p>
+                </div>
+
+                <div class="box">
+                    <div class="img-box"> <img src="img/s2.jpeg" id="imgA2" alt="loading.."></div>
+
+                    <h2>graphic design</h2>
+                    <p>My designs are unique and can be used for any purpose
+                        you desire, whether it's a business card or an advertisement.</p>
+
+                </div>
+
+                <div class="box">
+                    <div class="img-box"> <img src="img/s3.jpg" id="imgA3" alt="loading.."></div>
+
+                    <h2>video editing</h2>
+                    <p>From simple video messages to full-length films, I provide professional video editing
+                        Whether your video needs to be short or long, I will make sure
+                        that every frame is perfect.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact_container">
+                <div class="contactImg">
+                    <img src="img/mail.png" alt="loading..">
+                </div>
+            <form>
+                <h3>get in touch</h3>
+                <input type="text" id="name" placeholder="Name"  required/>
+                <br/>
+                <input type="email" id="mail" placeholder="Email Address" required/>
+                <br/>
+                <textarea id="message" placeholder="Message" rows="4" required></textarea>
+                <br/>
+                <button type="submit" onclick="sendMail()"><i class="fa-solid fa-check"></i></button>
+            </form>
+            </div>
+        </section>
+    </div>
+    <!-- ~ End Container  -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+        &copy; Copyright 2021 | Designed by <a href="#">osama saber<i class="fa-brands fa-slack"></i></a>
+        <div class="footerIcons">
+            <a href="https://www.linkedin.com/public-profile/settings" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/osama.saber.161214?mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/osama.elmetwalli/?igsh=MXNwZm9kaWF0MW4xZA%3D%3D" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("LGv3nySp62l0_WmtR");
+        })();
+        function sendMail() {
+            let parms  =
+                { 
+                name : document.getElementById('name').value,
+                email : document.getElementById('mail').value,
+                message : document.getElementById('message').value
+                }
+                
+                emailjs.send('service_fupigaq','template_hiywgxn',parms)
+                .then(alert('Email sent successfully'));
+            }
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
